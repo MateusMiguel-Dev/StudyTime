@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyTime</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom-dark">
+        <a class="navbar-brand" href="#">StudyTime</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/tarefas.html">Tarefas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/pomodoro.html">Pomodoro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/j_memoria.html">Jogos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="customizeMenu" role="button">
+                        Customizar
+                        <div class="dropdown-menu">
+                            <div class="color-picker" id="colorPicker">
+                                <div class="color-box" data-color="#28a745" style="background-color: #28a745;"></div>
+                                <div class="color-box" data-color="#007bff" style="background-color: #007bff;"></div>
+                                <div class="color-box" data-color="#7F348C" style="background-color: #7F348C;"></div>
+                                <div class="color-box" data-color="#e83e8c" style="background-color: #e83e8c;"></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="central-div">
+            <img id="plano-de-fundo" src="img/q_azul.png" alt="">
+            <div id="cor-piso"></div>
+        </div>
+    </div>
+    <div class="piso"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

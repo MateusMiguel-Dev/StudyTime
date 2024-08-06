@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.central-div {
+    margin-top: 20px;
+    background-color:  white;
+    height: auto;
+    padding: 50px;
+    padding-top: 30px;
+    width: 1300px;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1), -5px 0 15px rgba(0, 0, 0, 0.1);
+}
+h2{
+    padding-bottom: 20px;
+}
+#host{
+    color: white;
+}
+
+.todo-app {
+    margin-top: 0px;
+    text-align: left;
+}
+
+.tasks-container {
+    margin-top: 10px;
+}
+
+.task-column {
+    padding: 10px;
+    background-color: #e9ecef;
+    min-height: 450px;
+    margin: 11px;
+    max-width: 385px;
+    overflow-y: auto;
+    margin-bottom: 0px;
+}
+
+.task-column h3 {
+    text-align: left;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.task-list {
+    min-height: 150px;
+}
+
+.task {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: 300;
+    color: #333; /* Cor mais escura para as letras */
+}
+
+.task.alta {
+    border-left: 10px solid red;
+}
+
+.task.media {
+    border-left: 10px solid yellow;
+}
+
+.task.baixa {
+    border-left: 10px solid green;
+}
+option{
+    color: black;
+    font-weight: 400;
+}
+#bottom-div {
+    background-color: black;
+    
+    margin-top: 20px;
+    margin: 0% auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}

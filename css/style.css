@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+           
+body{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #8301a3;
+}
+.navbar-brand{
+    padding-left: 17vw;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar-nav{
+    margin-left: 2.5vh;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.5rem; 
+    padding-right: 2rem;
+    font-weight: 300;
+}
+.navbar-dark {
+    background-color: #111;
+}
+
+.central-div {
+    text-align: center;
+    width: 80%;
+}
+#plano-de-fundo{
+    width: 87%;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1), -5px 0 15px rgba(0, 0, 0, 0.1);
+}
+.piso{
+    background-color: #280b0b;
+    width: 100%;
+    height: 25vh;
+    margin-top: -11.2vh;
+    z-index: -10;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -11px;
+    z-index: 1000;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-item.dropdown .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.color-picker {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.color-box {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}

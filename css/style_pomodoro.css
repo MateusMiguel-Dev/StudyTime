@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.navbar-brand {
+    padding-left: 17vw;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar-nav {
+    margin-left: 2.5vh;
+}
+.central-div {
+    height: auto;
+    width: 1300px;
+}
+h2 {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 0px;
+    color: black;
+} 
+#host {
+    color: white;
+}
+#bottom-div {
+    background-color: black;
+    margin-top: 20px;
+    margin: 0% auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+#timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white; /* Cor padrão para Modo Foco */
+    padding: 20px;
+}
+#timer {
+    font-size: 8rem;
+    color: white;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+#minutes{
+    margin: 0;
+}
+#timer span {
+    padding: 0px;
+}
+#mode-message {
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    margin-bottom: -30px; 
+}
+#bot{
+    background-color: white;
+}
+.btns {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 6rem;
+    border: none;
+    border-radius: 5px;
+    background-color:#01a38d;
+    color: white;
+}
+.btns#start {
+    background-color: green;
+}
+.btns#stop {
+    background-color: rgb(236, 68, 68);
+}
+
+#aviso_leve{
+    border-left: #4ca3af solid 10px;
+    border-right: #4ca3af solid 10px;
+    border-bottom: #4ca3af solid 10px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 20px;
+    font-weight: 400;
+}
+#aviso_leve {
+    color: rgb(87, 86, 86);
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-start; 
+    margin-bottom: 20px; 
+}
+#aviso_leve > h2 {
+    flex-basis: 100%;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #4ca3af; 
+    color: white;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+#aviso_leve > p {
+    background-color:azure;
+    flex: 1 1 100px; 
+    margin-right: 10px; 
+    max-width: 600px;
+    text-align: justify;
+    margin-bottom: 0px;
+    padding: 20px 22px 20px 22px;
+}
+
+#aviso_leve img {
+    max-width: 120%; 
+    margin-top: 10px; 
+}
+
+@media (max-width: 768px) {
+    #aviso_leve > p {
+        flex: 1 1 100%; 
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    }
+}
+
+#bottom-div {
+    background-color: white;
+    height: 500px;
+    margin: 5px auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}

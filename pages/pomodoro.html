@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_pomodoro.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom-dark">
+        <a class="navbar-brand" href="../index.html">StudyTime</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="tarefas.html">Tarefas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="host" href="#">Pomodoro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="j_memoria.html">Jogos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="customizeMenu" role="button">
+                        Customizar
+                        <div class="dropdown-menu">
+                            <div class="color-picker" id="colorPicker">
+                                <div class="color-box" data-color="#28a745" style="background-color: #28a745;"></div>
+                                <div class="color-box" data-color="#007bff" style="background-color: #007bff;"></div>
+                                <div class="color-box" data-color="#7F348C" style="background-color: #7F348C;"></div>
+                                <div class="color-box" data-color="#e83e8c" style="background-color: #e83e8c;"></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="central-div text-center">
+            <h2>Temporizador Pomodoro</h2>
+            <div id="timer-container">
+                <div id="mode-message">Modo Foco</div>
+                <div id="timer">
+                    <span id="minutes">25</span>:<span id="seconds">00</span>
+                </div>
+            </div>
+            <div id="bot">
+                <button class="btns" id="start"><i class="bi bi-play-fill"></i></button>
+                <button class="btns" id="stop"><i class="bi bi-pause-fill"></i></button>
+                <button class="btns" id="next"><i class="bi bi-fast-forward-fill"></i></button>
+            </div>
+            <div id="message-box"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex justify-content-center">
+        <div id="bottom-div" class="central-div">
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/script_pomodoro.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_tarefas.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom-dark">
+        <a class="navbar-brand" href="../index.html">StudyTime</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" id="host" href="#">Tarefas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pomodoro.html">Pomodoro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="j_memoria.html">Jogos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="customizeMenu" role="button">
+                        Customizar
+                        <div class="dropdown-menu">
+                            <div class="color-picker" id="colorPicker">
+                                <div class="color-box" data-color="#28a745" style="background-color: #28a745;"></div>
+                                <div class="color-box" data-color="#007bff" style="background-color: #007bff;"></div>
+                                <div class="color-box" data-color="#7F348C" style="background-color: #7F348C;"></div>
+                                <div class="color-box" data-color="#e83e8c" style="background-color: #e83e8c;"></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="central-div">
+            <div class="todo-app">
+                <h2>Lista de Tarefas</h2>
+                <input type="text" id="new-task-input" class="form-control" placeholder="Digite uma nova tarefa">
+                <select id="task-priority" class="form-control mt-2">
+                    <option value="alta">Muito Urgente</option>
+                    <option value="media">Urgente</option>
+                    <option value="baixa">Pouco Urgente</option>
+                </select>
+                <button id="add-task-button" class="btn btn-primary mt-2">Adicionar Tarefa</button>
+                <div class="tasks-container row mt-4">
+                    <div class="task-column col-12 col-md-4" id="to-do">
+                        <h3>Fazer</h3>
+                        <div class="task-list"></div>
+                    </div>
+                    <div class="task-column col-12 col-md-4" id="in-progress">
+                        <h3>Fazendo</h3>
+                        <div class="task-list"></div>
+                    </div>
+                    <div class="task-column col-12 col-md-4" id="done">
+                        <h3>Feito</h3>
+                        <div class="task-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center">
+        <div id="bottom-div" class="central-div">
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/script_tarefas.js"></script>
+</body>
+</html>
