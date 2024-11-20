@@ -1,0 +1,63 @@
+/* Reset CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+input, textarea {
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
+
+/* Elimina bordas e sombras padrão */
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Estilos customizados para animações */
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo para a logo */
+.logo {
+    height: 40px;
+    width: auto;
+}

@@ -1,0 +1,226 @@
+.memory-game-section{
+    background-image: url("../img/bg_2.png"); 
+    padding: 50px 0;
+    background-color:#007bff;
+    background-position: center;
+    background-size: 210%;
+    width: 100%;
+    min-height: 90vh;
+     background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blue{
+    background-color: #007bff;
+    color: #007bff;
+}
+.pink{
+    background-color: #e866a7;
+    color: #e866a7;
+}
+.purple{
+    background-color: #80229f;
+    color: #80229f;
+}
+.green{
+    background-color: #28a745;
+    color: #28a745;
+}
+#start-screen{
+    max-width: 1240px; 
+    padding: 60px; 
+    background-color: white; 
+    margin: 50px auto; 
+    border-radius: 10px;
+}
+
+#bg-memory{
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: none;
+    min-height: 70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#bg-memory h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom: rgba(166, 156, 156, 0.624) solid 1px;
+    width: 95%;
+    height: 70px;
+    margin: 20px auto;
+}
+.memory-game {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr); 
+    flex-wrap: wrap;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.282); */
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.memory-game.small{
+    max-width: 600px;
+}
+
+.memory-card .back-face {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    display: none;
+    position: absolute;
+    border-radius: 8px;
+    backface-visibility: hidden;
+}
+.text-center{
+    padding: 10px;
+}
+#tempo{
+    font-weight: 600;
+}
+.memory-card {
+    width: 125px;
+    height: 172px;
+    margin: 10px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+.memory-card img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 8px;
+    backface-visibility: hidden;
+}
+.memory-card .front-face {
+    transform: rotateY(180deg);
+}
+#win-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%; 
+    max-width: 500px; 
+    min-width: 250px; 
+    min-height: 400px;
+    font-size: 1.2rem;
+    color: #333;
+    animation: fadeIn 1s ease;
+}
+
+#win-message i {
+    font-size: 6rem; /* Aumentei o tamanho do ícone */
+    color: #ffbf00;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#win-message h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #28a745;
+}
+#start-screen h1{
+    font-weight: 700; padding: 10px; border-bottom: black solid 1px; padding-top: 50px; padding-bottom: 40px; margin-bottom: 10px;
+}
+
+#win-message button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#win-message button:hover {
+    background-color: #0056b3;
+}
+
+/* Animação de fade-in */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Para telas menores, ajuste a fonte da mensagem e do botão */
+@media (max-width: 600px) {
+    #win-message {
+        font-size: 1rem; /* Diminuir o tamanho do texto para telas pequenas */
+        padding: 15px;
+    }
+    .memory-game-section{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .memory-card{
+        height: 124px;
+        width: 90px;
+    }
+    #win-message i {
+        font-size: 4rem; /* Ícone um pouco menor */
+    }
+
+    #win-message h2 {
+        font-size: 1.5rem;
+    }
+
+    #win-message button {
+        font-size: 1rem; /* Botão também ajustado */
+    }
+}
+
+@media (max-width: 1200px){
+    .memory-game-section{
+        background-size: 0%;
+    }
+}
+
+@media (max-width: 1428px){
+    .memory-game-section{
+        background-size: none;
+    }
+}
+
+@media (max-width: 992px){
+    #start-screen{
+        margin: 25px 10px;
+    }
+    #start-screen h1{
+        border: white;
+    }
+}
+.start-screen, .difficulty-screen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1000;
+}
+
+
+.start-screen h1, .difficulty-screen h2 {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,153 @@
+.ajuda_section {
+    padding: 50px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 65px;
+    background-repeat: no-repeat;
+    background-size: 190%;
+    background-position: center;
+}
+
+.blue{
+    background-color: #007bff;
+    color: #007bff;
+}
+.pink{
+    background-color: #e866a7;
+    color: #e866a7;
+}
+.purple{
+    background-color: #80229f;
+    color: #80229f;
+}
+.green{
+    background-color: #28a745;
+    color: #28a745;
+}
+
+.ajuda_section h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: rgba(166, 156, 156, 0.624) solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.ajuda_section .container {
+    background-color: white; /* Cor branca no container */
+    padding: 30px;
+    max-width: 1300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombras para dar destaque ao container */
+}
+@media (max-width: 1500px){
+    .jogos{
+        width: 100%;
+    }
+}
+
+
+.ajuda-info {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);  /* Sombrinha suave */
+    border-top: 20px solid #000000; 
+    text-align: justify;
+}
+
+.icon-title {
+    display: inline-block; /* Alinha o ícone e título na mesma linha */
+    margin-bottom: 20px;
+}
+
+.ajuda-info h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    text-align: left;  /* Alinhar o título à esquerda */
+    display: inline-block;  /* Faz o título se alinhar com o ícone */
+    margin-left: 0px;  /* Espaço entre o ícone e o título */
+}
+
+.ajuda-info h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+    text-align: left;  /* Alinhar o título à esquerda */
+}
+
+.ajuda-info p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.ajuda-info i {
+    font-size: 2rem;  /* Tamanho do ícone */
+    color: #000;  /* Cor preta para o ícone */
+    margin-right: 10px;  /* Espaço entre o ícone e o título */
+}
+.ajuda-info {
+    background-color: white;
+    padding: 15px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-top: 20px solid #000000;
+    overflow: hidden; /* Para controlar a expansão */
+    cursor: pointer; /* Indicar que é clicável */
+    transition: max-height 0.8s ease-in-out;
+    max-height: 90px; 
+}
+
+.ajuda-info.expanded {
+    max-height: 500px; /* Altura suficiente para acomodar todo o conteúdo expandido */
+}
+
+.ajuda-info .content {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.ajuda-info.expanded .content {
+    opacity: 1;
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-title i {
+    margin-right: 10px;
+    font-size: 1.8rem;
+}
+
+.icon-title h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+}
+@media (max-width: 800px){
+    .ajuda-info{
+        max-height: 100%;
+    }
+    .ajuda-info h3{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .ajuda-info i{
+        display: none;
+    }
+    .ajuda_section{
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+}

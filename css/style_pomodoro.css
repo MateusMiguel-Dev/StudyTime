@@ -1,0 +1,335 @@
+.pomo_section {
+    background-image: url("../img/bg_2.png"); /* Remove o fundo branco claro */
+    padding: 50px 0;
+    background-color:#007bff;
+    background-position: center;
+    background-size: 190%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.blue{
+    background-color: #007bff;
+    color: #007bff;
+}
+.pink{
+    background-color: #e866a7;
+    color: #e866a7;
+}
+.purple{
+    background-color: #80229f;
+    color: #80229f;
+}
+.green{
+    background-color: #28a745;
+    color: #28a745;
+}
+
+.pomo-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 40px;
+    align-items: stretch; /* Garante que ambos tenham a mesma altura */
+}
+
+.pomo-timer {
+    flex: 1;
+    /* background-color: #007bff92; */
+    text-align: center;
+    /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); */
+    /* border-top: #007bff solid 10px; */
+    border-radius: 10px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    min-height: 400px;
+    max-height: 40px;
+    margin-right: 45px;
+    justify-content: center;
+}
+.pomo-timer h3{
+    font-weight: 900;
+}
+.pomo-article {
+    flex: 1;
+    background-color: white; /* Fundo branco */
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombrinha suave */
+}
+
+.pomo-article i{
+    font-size: 50px;
+}
+.pomo-article h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.pomo-article p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.pomo-article ul {
+    margin-left: 20px;
+    padding: 0;
+}
+
+.pomo-article ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.pomo-article strong {
+    font-weight: bold;
+}
+
+.restMode {
+    background-color: var(--button-color); 
+    color: white;
+}
+
+.restMode h3 {
+    color: white;
+}
+
+.restMode .pomo-article ul li {
+    color: white;
+}
+
+.restMode i {
+    font-size: 50px;
+    color: white;
+}
+
+.timeDisplay{
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 100%;
+    margin: 20px auto;
+    text-align: center;
+    border: #007bff solid 10px;
+    width: 250px;
+    color: white;
+    background-color: #1988ffab;
+    padding-top: 70px;
+    height: 250px;
+}
+
+.pomo-controls .btn {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    border: none;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pomo-controls .btn {
+    background-color: var(--button-color);
+    border: 2px solid var(--border-color); /* Cor da borda do botão */
+}
+
+:root {
+    --button-color: #007bff;
+    --timer-bg-color: #4e99d8; /* Fundo mais claro */
+    --border-color: #3399cc; /* Borda mais clara */
+}
+
+.timeDisplay {
+    background-color: var(--timer-bg-color); /* Cor de fundo mais clara */
+    border: 2px solid var(--border-color); /* Borda mais clara */
+}
+
+.pomo-container {
+    display: flex;
+    flex-direction: column;  /* Coloca o título acima */
+    justify-content: center;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;  
+    padding-bottom: 30px;
+    border-bottom: rgba(166, 156, 156, 0.624) solid 1px;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;  /* Coloca os itens lado a lado */
+    width: 100%;
+}
+
+.pomo-timer,
+.pomo-article {
+    flex: 1;
+    margin: 0 10px;  /* Distância entre o timer e o artigo */
+    text-align: justify;
+}
+
+.pomo-timer {
+    text-align: center;
+}
+
+.pomo-article {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);  
+}
+
+.pomo-explanation {
+    background-color: #f8f9fa;  /* Cor de fundo suave */
+    padding: 50px 0;
+}
+
+.pomo-explanation .container {
+    max-width: 1220px;  /* Aumentar o container para 1250px */
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.pomo-info {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);  /* Sombrinha suave */
+    border-top: 20px solid #28a745;  /* Borda superior verde de 20px */
+}
+
+.icon-title {
+    display: inline-block; /* Alinha o ícone e título na mesma linha */
+    margin-bottom: 20px;
+}
+
+.pomo-info h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    text-align: left;  /* Alinhar o título à esquerda */
+    display: inline-block;  /* Faz o título se alinhar com o ícone */
+    vertical-align: middle;
+    margin-left: 10px;  /* Espaço entre o ícone e o título */
+}
+
+.pomo-info h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+    text-align: left;  /* Alinhar o título à esquerda */
+}
+
+.pomo-info p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Exibir conteúdo quando passar o mouse */
+.pomo-info:hover p {
+    opacity: 1;  /* Quando passar o mouse, o conteúdo se torna visível */
+}
+
+.pomo-info i {
+    font-size: 2rem;  /* Tamanho do ícone */
+    color: #000;  /* Cor preta para o ícone */
+    margin-right: 10px;  /* Espaço entre o ícone e o título */
+}
+
+@media (max-width: 1400px){
+    .pomo_section{
+        background-size: 0;
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .pomo_section{
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .pomo-explanation {
+        padding: 20px 0;
+    }
+    .pomo-info {
+        padding: 20px;
+    }
+    #modeDisplay{
+        margin: 20px auto;
+    }
+    #modeDisplay{
+        width: 100px;
+    }
+    .pomo-info h3 {
+        font-size: 1.3rem;
+    }
+    .pomo-container{
+        font-size: 10px;
+    }
+    .pomo-info h4 {
+        font-size: 1.2rem;
+    }
+    .pomo-info p {
+        font-size: 1rem;
+    }
+    .welcome-content{
+        font-size: 13px;
+    }
+    .welcome-content{
+        padding: 10px;
+        padding-top: 200px;
+    }
+    .welcome-content #startButton{
+        margin-top: 10px;
+    }
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px){
+    .d-flex {
+        flex-direction: column;  /* Coloca o timer e o artigo em coluna, um embaixo do outro */
+        align-items: center;  /* Centraliza os itens */
+    }
+    .pomo-container{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+
+    }
+    .pomo-timer,
+    .pomo-article {
+        margin: 20px auto;  /* Adiciona espaçamento entre o timer e o artigo */
+        width: 80%;  /* Garantir que ambos ocupem toda a largura disponível */
+    }
+    .pomo-article{
+        margin-top: 10px;
+        min-width: 370px;
+    }
+    h2 {
+        font-size: 1.5rem;  /* Ajusta o tamanho da fonte do título para telas menores */
+    }
+}

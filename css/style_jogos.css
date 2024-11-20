@@ -1,0 +1,146 @@
+.jogos_section {
+    padding: 50px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 65px;
+    background-repeat: no-repeat;
+    background-size: 190%;
+    background-position: center;
+}
+
+.blue{
+    background-color: #007bff;
+    color: #007bff;
+}
+.pink{
+    background-color: #e866a7;
+    color: #e866a7;
+}
+.purple{
+    background-color: #80229f;
+    color: #80229f;
+}
+.green{
+    background-color: #28a745;
+    color: #28a745;
+}
+
+.jogos_section h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: rgba(166, 156, 156, 0.624) solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.jogos_section .container {
+    background-color: white; /* Cor branca no container */
+    padding: 30px;
+    max-width: 1240px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombras para dar destaque ao container */
+}
+
+#jogos-container img{
+    width: 100%;
+}
+#jogos-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#jogos-container a{
+    color: inherit;
+}
+#jogos-container h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: none;
+    padding: 10px 10px 0px ;
+}
+.jogos{
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombras para dar destaque ao container */
+    min-width: 300px;
+    margin: 10px ;
+    width: 48.3%;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+.jogos:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+#Mais h2{
+    margin-top: 20px;
+}
+
+@media (max-width: 1500px){
+    .jogos{
+        width: 100%;
+    }
+
+}
+
+.jogos-explanation {
+    background-color: #f8f9fa;  /* Cor de fundo suave */
+    padding: 50px 0;
+}
+
+.jogos-explanation .container {
+    max-width: 1260px;  /* Aumentar o container para 1250px */
+    margin: 0 auto;
+}
+
+.jogos-info {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);  /* Sombrinha suave */
+    border-top: 20px solid #000000; 
+}
+
+.icon-title {
+    display: inline-block; /* Alinha o ícone e título na mesma linha */
+    margin-bottom: 20px;
+}
+
+.jogos-info h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    text-align: left;  /* Alinhar o título à esquerda */
+    display: inline-block;  /* Faz o título se alinhar com o ícone */
+    margin-left: 10px;  /* Espaço entre o ícone e o título */
+}
+
+.jogos-info h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+    text-align: left;  /* Alinhar o título à esquerda */
+}
+
+.jogos-info p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: justify;
+}
+
+/* Exibir conteúdo quando passar o mouse */
+.jogos-info:hover p {
+    opacity: 1;  /* Quando passar o mouse, o conteúdo se torna visível */
+}
+
+.jogos-info i {
+    font-size: 2rem;  /* Tamanho do ícone */
+    color: #000;  /* Cor preta para o ícone */
+    margin-right: 10px;  /* Espaço entre o ícone e o título */
+}

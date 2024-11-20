@@ -1,0 +1,39 @@
+
+@media (max-width: 992px) {
+    body{
+        background-color: white;
+        padding-top: 20px;
+    }
+    .navbar{
+        display: none;
+    }
+    #logo_top{
+        display: block;
+        width: 55%;
+        max-width: 200px;
+    }
+    .second_section i{
+        font-size: 30px;
+    }
+    .content_second{
+        display: inline-block;
+    }
+    .visor{
+        margin-top: 16px;
+        padding: 0;
+    }
+    .visor h2{
+        margin-left: 10px;
+        margin-top: -15px;
+    }
+    .second_section h3{
+        font-size: 1rem;
+        margin-top: -47px;
+        margin-left: 40px;
+    }
+    .extra_section .article4 .custom-options-site{
+        margin-top: -200px;
+    }
+
+ 
+}

@@ -1,0 +1,256 @@
+.task_section {
+    padding: 60px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 65px;
+    background-repeat: no-repeat;
+    background-size: 190%;
+    background-position: center;
+}
+
+.blue{
+    background-color: #007bff;
+    color: #007bff;
+}
+.pink{
+    background-color: #e866a7;
+    color: #e866a7;
+}
+.purple{
+    background-color: #80229f;
+    color: #80229f;
+}
+.green{
+    background-color: #28a745;
+    color: #28a745;
+}
+
+.task_section h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: rgba(166, 156, 156, 0.624) solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
+
+}
+
+.task_section .container {
+    background-color: white; /* Cor branca no container */
+    padding: 30px;
+    max-width: 1240px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombras para dar destaque ao container */
+}
+
+.task-input-area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Permite que os elementos se movam para a próxima linha em telas pequenas */
+}
+
+.task-input {
+    flex: 2;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Garante que o input ocupe toda a largura disponível em telas menores */
+    max-width: 700px; /* Limita o tamanho máximo do input */
+}
+
+.task-priority {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Garante que o seletor ocupe toda a largura disponível em telas menores */
+    max-width: 390px; /* Limita o tamanho máximo do seletor */
+}
+
+#addTaskBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Garante que o botão ocupe toda a largura disponível em telas menores */
+    max-width: 150px; /* Limita o tamanho máximo do botão */
+}
+
+#addTaskBtn:hover {
+    background-color: #0056b3;
+}
+
+.task-board {
+    display: flex;
+    gap: 10px; /* Diminuímos o gap para aproximar mais os quadros */
+    flex-wrap: wrap; /* Permite que os quadros se ajustem em telas pequenas */
+    justify-content: space-between;
+}
+
+.task-column {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 250px; /* Garante que cada coluna tenha uma largura mínima */
+}
+.task-column h3{
+    font-weight: 600;
+
+}
+.task-list {
+    min-height: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.task-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: move;
+    border-left: 10px solid; /* Definição da borda lateral */
+}
+
+.task-item[data-priority="normal"] {
+    border-left-color: #28a745; /* Verde para prioridade normal */
+}
+
+.task-item[data-priority="alta"] {
+    border-left-color: #ffc107; /* Amarelo para prioridade alta */
+}
+
+.task-item[data-priority="urgente"] {
+    border-left-color: #dc3545; /* Vermelho para prioridade urgente */
+}
+
+.task-item:hover {
+    background-color: #e9ecef;
+}
+
+/* Cor de texto no container */
+.task_section .container {
+    color: inherit; /* O valor será herdado do JS */
+}
+.content-container .section-title{
+    padding-left: 15px ;
+}
+.segunda_section .report-item.blue {
+    border-top: #007bff solid 20px;
+    color: black;
+    border-bottom: #007bff solid 3px;
+}
+.segunda_section .report-item.pink {
+    border-top: #ff69b4 solid 20px;
+    border-bottom: #ff69b4 solid 3px;
+    color: black;
+}
+.segunda_section .report-item.purple {
+    border-top: #80229f solid 20px;
+    border-bottom: #80229f solid 3px;
+    color: black;
+
+}
+.segunda_section .report-item.green {
+    border-top: #28a745 solid 20px;
+    border-bottom: #28a745 solid 3px;
+    color: black;
+
+}
+.segunda_section .report-item{
+    max-width: 630p;
+    padding-left: 25px;
+}
+.segunda_section p {
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.segunda_section .content_second{
+    display: inline-flex;
+    padding-left: 20px;
+}
+.segunda_section i {
+    font-size: 24px;
+    padding-right: 5px;
+}
+.report-item:hover, .quick-tip:hover {
+    transform: scale(1.02);
+}
+.segunda_section h3{
+    padding: 10px;
+    width: 100%;
+    font-size: 26px;
+    font-weight: 800;
+}
+.segunda_section{
+    background-color: white;
+    padding: 10px;
+}
+
+.segunda_section .content-container{
+    background-size: 0;
+}
+/* Responsividade */
+@media (max-width: 1200px) {
+    .task-board {
+        flex-direction: column; /* Coloca os quadros em coluna quando a tela for pequena */
+        gap: 15px;
+    }
+
+    .task-column {
+        width: 100%;
+    }
+
+    .task-list {
+        min-height: 150px;
+    }
+
+    .task-input-area {
+        flex-direction: column; /* Empilha os elementos na versão mobile */
+        gap: 15px;
+    }
+
+    .task-input, .task-priority, #addTaskBtn {
+        width: 100%; /* Garante que os inputs e botão ocupem toda a largura disponível */
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 992px){
+    .task_section{
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 600px){
+    .task_section{
+        padding-top: 25px;
+    }
+    .content-container .section-title{
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    .content-container h3{
+        font-size: 20px;
+    }
+    .d-flex{
+        padding-right: 5px;
+        margin-left: -10px;
+    }
+    .welcome-content p{
+        font-size: 13px;
+    }
+}
