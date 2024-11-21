@@ -248,6 +248,8 @@ function setRestMode() {
     pomodoroLabel.textContent = `Intervalo ${breakCount - 1}`;
     breakCount++;
     updateTimerDisplay();
+    toggleGamesMenu(true); 
+
 }
 
 function setFocusMode() {
