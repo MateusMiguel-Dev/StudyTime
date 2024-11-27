@@ -104,6 +104,67 @@ document.addEventListener('DOMContentLoaded', function() {
         { question: "Quem foi a primeira mulher a ganhar um Prêmio Nobel?", answers: ["Marie Curie", "Rosalind Franklin", "Jane Goodall", "Ada Lovelace"], correct: 0 },
         { question: "Qual é a maior cadeia de montanhas do mundo?", answers: ["Cordilheira dos Andes", "Himalaias", "Alpes", "Montanhas Rochosas"], correct: 0 },
         { question: "Qual é o principal componente do DNA?", answers: ["Açúcar", "Fósforo", "Ácido desoxirribonucleico", "Ácido ribonucleico"], correct: 2 },
+        { question: "Quem foi o primeiro presidente do Brasil?", answers: ["Deodoro da Fonseca", "Floriano Peixoto", "Getúlio Vargas", "Dom Pedro II"], correct: 0 },
+        { question: "Qual é a fórmula do gás carbônico?", answers: ["CO", "CO2", "CH4", "O2"], correct: 1 },
+        { question: "Qual é a capital da Austrália?", answers: ["Sydney", "Melbourne", "Brisbane", "Camberra"], correct: 3 },
+        { question: "Quem escreveu 'Os Lusíadas'?", answers: ["Fernando Pessoa", "Luís de Camões", "José Saramago", "Eça de Queirós"], correct: 1 },
+        { question: "Qual é o maior animal terrestre?", answers: ["Elefante", "Hipopótamo", "Rinoceronte", "Girafa"], correct: 0 },
+        { question: "Qual é a moeda oficial do Japão?", answers: ["Dólar", "Yen", "Euro", "Won"], correct: 1 },
+        { question: "Qual é a montanha mais alta das Américas?", answers: ["Everest", "Kilimanjaro", "Aconcágua", "Denali"], correct: 2 },
+        { question: "Quem descobriu a penicilina?", answers: ["Alexander Fleming", "Louis Pasteur", "Marie Curie", "Joseph Lister"], correct: 0 },
+        { question: "Qual país tem a maior população do mundo?", answers: ["Índia", "China", "Estados Unidos", "Indonésia"], correct: 1 },
+        { question: "Qual é o nome do gas que respiramos?", answers: ["Hidrogênio", "Oxigênio", "Dióxido de Carbono", "Nitrogênio"], correct: 1 },
+        { question: "Qual é o maior mamífero do mundo?", answers: ["Elefante", "Baleia Azul", "Orca", "Hipopótamo"], correct: 1 },
+        { question: "Qual é a capital do Canadá?", answers: ["Toronto", "Ottawa", "Vancouver", "Montreal"], correct: 1 },
+        { question: "Quem foi o autor de 'O Pequeno Príncipe'?", answers: ["Jules Verne", "Victor Hugo", "Antoine de Saint-Exupéry", "Gustave Flaubert"], correct: 2 },
+        { question: "Quantos planetas existem no sistema solar?", answers: ["7", "8", "9", "10"], correct: 1 },
+        { question: "Qual é a cor da bandeira da ONU?", answers: ["Azul e Branco", "Verde e Branco", "Vermelho e Branco", "Amarelo e Branco"], correct: 0 },
+        { question: "Qual é o nome do fenômeno causado pelo aquecimento global?", answers: ["Efeito de Cúpula", "Efeito Estufa", "Efeito Borboleta", "Efeito Térmico"], correct: 1 },
+        { question: "Quem pintou 'A Última Ceia'?", answers: ["Leonardo da Vinci", "Michelangelo", "Raphael", "Caravaggio"], correct: 0 },
+        { question: "Qual é o país com mais idiomas oficiais?", answers: ["Canadá", "Índia", "África do Sul", "Suíça"], correct: 1 },
+        { question: "Quem foi o autor da teoria da evolução?", answers: ["Isaac Newton", "Albert Einstein", "Charles Darwin", "Galileu Galilei"], correct: 2 },
+        { question: "Qual é o menor continente em extensão territorial?", answers: ["Europa", "Austrália", "Antártida", "América do Sul"], correct: 1 },
+        { question: "Qual é o principal ingrediente do sushi?", answers: ["Carne", "Frango", "Arroz", "Batata"], correct: 2 },
+        { question: "Qual é a capital do México?", answers: ["Monterrey", "Cancún", "Cidade do México", "Guadalajara"], correct: 2 },
+        { question: "Quem foi o autor de 'Macbeth'?", answers: ["William Wordsworth", "William Shakespeare", "John Milton", "Geoffrey Chaucer"], correct: 1 },
+        { question: "Qual é a velocidade do som no ar?", answers: ["343 m/s", "300 m/s", "400 m/s", "500 m/s"], correct: 0 },
+        { question: "Qual é a molécula que transporta energia nas células?", answers: ["DNA", "ATP", "RNA", "NADH"], correct: 1 },
+        { question: "Quem é conhecido como o 'pai da matemática'?", answers: ["Euclides", "Pitágoras", "Arquimedes", "René Descartes"], correct: 0 },
+        { question: "Qual é o maior país em área territorial?", answers: ["Canadá", "China", "Rússia", "Estados Unidos"], correct: 2 },
+        { question: "Qual é o estado brasileiro conhecido como 'terra da garoa'?", answers: ["Rio de Janeiro", "Minas Gerais", "São Paulo", "Paraná"], correct: 2 },
+        { question: "Qual é o planeta chamado de 'Planeta Vermelho'?", answers: ["Marte", "Júpiter", "Vênus", "Mercúrio"], correct: 0 },
+        { question: "Qual foi o primeiro filme da história?", answers: ["Viagem à Lua", "O Grande Roubo do Trem", "Cena dos Irmãos Lumière", "O Cantor de Jazz"], correct: 2 },
+        { question: "Qual é o nome do maior satélite natural de Júpiter?", answers: ["Ganimedes", "Europa", "Io", "Calisto"], correct: 0 },
+        { question: "Quem escreveu 'O Capital'?", answers: ["Karl Marx", "Adam Smith", "Friedrich Engels", "Jean-Jacques Rousseau"], correct: 0 },
+        { question: "Qual é o principal metal presente no aço?", answers: ["Cobre", "Alumínio", "Ferro", "Níquel"], correct: 2 },
+        { question: "Qual é a capital da Argentina?", answers: ["Buenos Aires", "Córdoba", "Rosário", "Mendoza"], correct: 0 },
+        { question: "Qual é o maior satélite natural da Terra?", answers: ["Lua", "Phobos", "Europa", "Tritão"], correct: 0 },
+        { question: "Qual é o oceano que banha a costa leste do Brasil?", answers: ["Pacífico", "Atlântico", "Índico", "Ártico"], correct: 1 },
+        { question: "Qual é o órgão responsável por produzir insulina?", answers: ["Pâncreas", "Fígado", "Coração", "Estômago"], correct: 0 },
+        { question: "Quem pintou 'Guernica'?", answers: ["Pablo Picasso", "Salvador Dalí", "Henri Matisse", "Claude Monet"], correct: 0 },
+        { question: "Qual é o menor osso do corpo humano?", answers: ["Martelo", "Bigorna", "Estribo", "Fêmur"], correct: 2 },
+        { question: "Qual é o metal mais utilizado na construção civil?", answers: ["Cobre", "Ferro", "Alumínio", "Zinco"], correct: 1 },
+        { question: "Quem foi o primeiro homem a voar em um balão de ar quente?", answers: ["Joseph Montgolfier", "Jacques Charles", "Jean-François Pilâtre de Rozier", "André-Jacques Garnerin"], correct: 2 },
+        { question: "Qual é a capital do Egito?", answers: ["Cairo", "Alexandria", "Luxor", "Giza"], correct: 0 },
+        { question: "Qual elemento químico tem o símbolo 'Au'?", answers: ["Prata", "Cobre", "Ouro", "Alumínio"], correct: 2 },
+        { question: "Qual é o maior deserto do mundo?", answers: ["Saara", "Gobi", "Antártida", "Kalahari"], correct: 2 },
+        { question: "Quem pintou a Mona Lisa?", answers: ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"], correct: 1 },
+        { question: "Qual é a principal língua falada no Brasil?", answers: ["Espanhol", "Português", "Inglês", "Francês"], correct: 1 },
+        { question: "Quantos ossos tem o corpo humano adulto?", answers: ["206", "208", "210", "212"], correct: 0 },
+        { question: "Qual é a capital da Alemanha?", answers: ["Hamburgo", "Berlim", "Munique", "Frankfurt"], correct: 1 },
+        { question: "Quem desenvolveu a teoria da relatividade?", answers: ["Nikola Tesla", "Isaac Newton", "Albert Einstein", "Stephen Hawking"], correct: 2 },
+        { question: "Qual é a moeda oficial do Reino Unido?", answers: ["Euro", "Dólar", "Libra Esterlina", "Franco"], correct: 2 },
+        { question: "Qual é o menor planeta do sistema solar?", answers: ["Mercúrio", "Marte", "Plutão", "Vênus"], correct: 0 },
+        { question: "Qual é o maior rio do mundo em volume de água?", answers: ["Nilo", "Mississipi", "Yangtzé", "Amazonas"], correct: 3 },
+        { question: "Quem foi o líder da Revolução Russa de 1917?", answers: ["Leon Trotsky", "Vladimir Lenin", "Joseph Stalin", "Karl Marx"], correct: 1 },
+        { question: "Qual é o nome da galáxia em que a Terra está localizada?", answers: ["Andrômeda", "Via Láctea", "Triângulo", "Centaurus A"], correct: 1 },
+        { question: "Qual é o idioma mais falado no mundo?", answers: ["Inglês", "Espanhol", "Chinês", "Hindi"], correct: 2 },
+        { question: "Quem foi o primeiro homem a pisar na Lua?", answers: ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"], correct: 1 },
+        { question: "Qual é o estado brasileiro com maior produção de café?", answers: ["Espírito Santo", "São Paulo", "Bahia", "Minas Gerais"], correct: 3 },
+        { question: "Qual é a camada mais externa da Terra?", answers: ["Manto", "Crosta", "Núcleo Externo", "Núcleo Interno"], correct: 1 },
+        { question: "Quem foi o escritor de 'Dom Quixote'?", answers: ["Miguel de Cervantes", "Gabriel García Márquez", "Pablo Neruda", "Jorge Luis Borges"], correct: 0 },
+        { question: "Qual animal é conhecido como 'o melhor amigo do homem'?", answers: ["Gato", "Cavalo", "Cachorro", "Pássaro"], correct: 2 },
+        { question: "Qual foi o primeiro país a sediar uma Copa do Mundo?", answers: ["Brasil", "Uruguai", "Itália", "Alemanha"], correct: 1 },
     ];
 
 
@@ -112,6 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let score = 0;
     let roundQuestions = [];
     const rounds = 5;
+    let usedQuestions = []; 
     const questionsPerRound = 2;
 
     const questionContainer = document.getElementById('question-container');
@@ -124,11 +186,22 @@ document.addEventListener('DOMContentLoaded', function() {
     feedbackContainer.id = 'feedback-container';
     questionContainer.appendChild(feedbackContainer);
 
-    // Sorteia perguntas sem repetição
     function getRandomQuestions() {
-        let shuffled = [...questions].sort(() => 0.5 - Math.random());
-        return shuffled.slice(0, questionsPerRound);
-    }
+    const availableQuestions = questions.filter(
+        (_, index) => !usedQuestions.includes(index)
+    );
+    const shuffled = availableQuestions.sort(() => 0.5 - Math.random());
+    const selectedQuestions = shuffled.slice(0, questionsPerRound);
+
+    // Adiciona os índices das perguntas selecionadas à lista de usadas
+    selectedQuestions.forEach(question => {
+        const questionIndex = questions.indexOf(question);
+        usedQuestions.push(questionIndex);
+    });
+
+    return selectedQuestions;
+}
+
 
     function showQuestion() {
         const currentQuestion = roundQuestions[currentQuestionIndex];
